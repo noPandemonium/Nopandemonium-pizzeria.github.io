@@ -413,29 +413,18 @@
                                         padding: 20px 10px;
                                     }
                                     
-                                    .menu-section {
-                                        margin: 0 auto;
-                                        max-width: 600px;
-                                        padding: 20px 0;
-                                    }
-                                    
                                     .menu-category {
-                                        margin-bottom: 30px;
+                                        margin-bottom: 20px;
                                         padding: 15px;
                                         background-color: rgb(255, 255, 255);
                                         border-radius: 5px;
                                         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-                                        /* add a width here */
-                                        width: 100%;
-                                        /* or set a specific value, in pixels or percentage */
-                                        box-sizing: border-box;
-                                        /* ensures padding and border are included in element's total width */
                                     }
                                     
                                     .menu-category h2 {
                                         font-size: 28px;
                                         color: #E81C4F;
-                                        margin-bottom: 10px;
+                                        margin-bottom: 5px;
                                         padding-bottom: 5px;
                                         border-bottom: 2px solid #E81C4F;
                                     }
