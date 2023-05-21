@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Katonah Pizza & Pasta is a family owned and operated pizzeria and Italian restaurant located in Katonah, NY.">
+    <title>Katonah Pizza & Pasta</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <div class="nav-bar">
+                <ul>
+                    <li> <a href="/index.html">Welcome</a> </li>
+                    <li> <a href="/menu.html">Menu</a> </li>
+                    <li><a href="/catering.html">Catering</a></li>
+                    <li><a href="/about-us.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    <li><a href="/order.html" class="cta-button">Order</a></li>
+                </ul>
+
+            </div>
+            <button class="menu-toggle" type="button" onclick="toggleMenu()">
+  <img src="images/menu.png" alt="Menu" class="menu-image">
+</button>
+        </div>
+        <div>
+            <ul class="dropdown-menu">
+                <li> <a href="index.html">Welcome</a> </li>
+                <li> <a href="menu.html">Menu</a> </li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="order.html" class="cta-button">Order</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="wrapper">
+        <header>
+            <img src="images/logo.png" alt="Katonah Pizza & Pasta">
+        </header>
+        <div id="content">
+
+
+            <div class="image-slider">
+
+                <div class="slide active" id="slide-1">
+                    <img src="images/tom.jpeg" alt="tom">
+                    <div class="slide-text text-1">Welcome to Katonah Pizza!</div>
+                    <a href="order.html"> <button class="order-button">Order now!</button>
+                    </a>
+                </div>
+                <div class="slide" id="slide-2">
+                    <img src="images/salad.jpeg" alt="salad">
+                    <div class="slide-text text-2">Try our selection of salads!</div>
+                </div>
+                <div class="slide" id="slide-3">
+                    <img src="images/pasta.jpeg" alt="pasta">
+                    <div class="slide-text text-3">We also have a large selection of pasta dishes!</div>
+                </div>
+                <div class="slide" id="slide-4">
+                    <img src="images/pizza.jpeg" alt="hero">
+                    <div class="slide-text text-4">Try our famous pizza!</div>
+                </div>
+                <div class="slide" id="slide-5">
+                    <img src="images/hero.jpeg" alt="pizza">
+                    <div class="slide-text text-5">And much more!</div>
+                    <a href="order.html"> <button class="order-button">Order now!</button>
+                    </a>
+                </div>
+
+                <div class="controls">
+                    <button class="prev" id="prev-btn"><b><</b></button>
+                    <button class="next" id="next-btn"><b>></b></button>
+                </div>
+            </div>
+            <div class="indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+            <p>We are a family owned and operated pizzeria and Italian restaurant located in the heart of Woodlawn. Our menu features a wide selection of pizza, pasta, salads, and more. We offer dine-in, take-out, and delivery services. Come visit us today!
+            </p>
+        </div>
+        <div class="extra">
+            <div class="extra-item">
+                <img src="images/image1.jpg" alt="Image 1">
+                <h1>Order Online</h1>
+                <p>You can order your favorite meals for pickup or delivery with just a few clicks!</p>
+                <a href="order.html"> <button class="order-button-extra">Order now!</button>
+                </a>
+            </div>
+            <div class="extra-item">
+                <img src="images/image2.jpg" alt="Image 2">
+                <h1>Menu</h1>
+                <p>Take a look at our menu to see our wide array of great choices!</p>
+                <a href="menu.html"> <button class="menu-button-extra">Menu</button>
+                </a>
+            </div>
+            <div class="extra-item">
+                <img src="images/image3.jpg" alt="Image 3">
+                <h1>Catering</h1>
+                <p>Having people over? Order from our catering menu which can serve from 5-15 people!</p>
+                <a href="catering.html"> <button class="catering-button-extra">Menu</button>
+                </a>
+
+            </div>
+        </div>
+
+
+        <footer id="footer">
+            <p>4307 Katonah Ave, Bronx, NY 10470 | Phone: (718) 994-8337 | Mon-Sun: 11 AM - 11 PM</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/katonahpizzapasta" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/katonahpizzapasta" target="_blank"><img src="images/instagram-icon.png" alt="Instagram"></a>
+
+            </div>
+            <p>&copy; Katonah Pizza & Pasta. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.JS"></script>
+
+</body>
+
+</html>

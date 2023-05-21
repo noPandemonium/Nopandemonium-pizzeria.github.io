@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Katonah Pizza & Pasta is a family owned and operated pizzeria and Italian restaurant located in Katonah, NY.">
+    <title>Katonah Pizza & Pasta</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <div class="nav-bar">
+                <ul>
+                    <li> <a href="/index.html">Welcome</a> </li>
+                    <li> <a href="/menu.html">Menu</a> </li>
+                    <li><a href="/catering.html">Catering</a></li>
+                    <li><a href="/about-us.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    <li><a href="/order.html" class="cta-button">Order</a></li>
+                </ul>
+
+            </div>
+            <button class="menu-toggle" type="button" onclick="toggleMenu()">
+  <img src="images/menu.png" alt="Menu" class="menu-image">
+</button>
+        </div>
+        <div>
+            <ul class="dropdown-menu">
+                <li> <a href="/index.html">Welcome</a> </li>
+                <li> <a href="/menu.html">Menu</a> </li>
+                <li><a href="/catering.html">Catering</a></li>
+                <li><a href="/about-us.html">About Us</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+                <li><a href="/order.html" class="cta-button">Order</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="wrapper">
+        <header>
+            <img src="images/logo.png" alt="Katonah Pizza & Pasta">
+        </header>
+        <h1>Katonah Pizza</h1>
+        <h2>Delivery-Takeout Menu</h2>
+        <p>For dine-in, takeout or delivery. Delivery area within 1 mile with a <span class="menu-price">$15.0</span>0 minimum</p>
+        <p>Available: Mon-Thur 11AM - 11PM, Fri & Sat 11AM - 12AM; Sun 12PM - 11PM</p>
+        <h3><a href="#">Order Online</a></h3>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Appetizers</h2>
+                <ul>
+                    <li>Shrimp Cocktail
+                        <span class="menu-price"> <span class="menu-price">$12.00</span>
+
+                        </span>
+                    </li>
+                    <li>Fried Shrimp <span class="menu-price">$12.00</span></li>
+                    <li>Baked Clams <span class="menu-price">$11.75</span></li>
+                    <li>Bruschetta <span class="menu-price">$8.75</span></li>
+                    <li>Fish and Chips <span class="menu-price">$10.75</span></li>
+                    <li>Eggplant Rollatini <span class="menu-price">$10.75</span></li>
+                    <li>Fried Calamari <span class="menu-price">$12.50</span></li>
+                    <li>Chicken Fingers Served with honey mustard and BBQ sauce. <span class="menu-price">$10.75</span></li>
+                    <li>Chicken Fingers w/ Fries Served with honey mustard and BBQ sauce. <span class="menu-price">$12.00</span></li>
+                    <li>Cajun Shrimp <span class="menu-price">$13.00</span></li>
+                    <li>Grilled Shrimp (8) <span class="menu-price">$13.00</span></li>
+                    <li>Zucchini Sticks Served with tomato sauce. <span class="menu-price">$9.50</span></li>
+                    <li>Mozzarella Sticks <span class="menu-price">$9.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class=" menu-section ">
+            <div class="menu-category ">
+                <h2>Soups</h2>
+                <p>16oz served with homemade bread</p>
+                <ul>
+                    <li>Pasta Fagioli Soup <span class="menu-price">$7.00</span></li>
+                    <li>Minestrone Soup <span class="menu-price">$7.00</span></li>
+                    <li>Chicken Tortellini Soup <span class="menu-price">$7.75</span></li>
+                    <li>Chicken Noodle Soup <span class="menu-price">$7.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section ">
+            <div class="menu-category ">
+                <h2>Salads</h2>
+                <p>Small or large for add'l charge</p>
+                <ul>
+                    <li>Caesar Salad <span class="menu-price">$7.50</span></li>
+                    <li>Grilled Chicken Caesar Salad <span class="menu-price">$9.75</span></li>
+                    <li>Garden Salad <span class="menu-price">$6.50</span></li>
+                    <li>Grilled Chicken Salad <span class="menu-price">$9.75</span></li>
+                    <li>Buffalo Grilled Chicken Salad <span class="menu-price">$10.00</span></li>
+                    <li>BBQ Chicken Salad <span class="menu-price">$10.00</span></li>
+                    <li>Grilled Shrimp Salad <span class="menu-price">$11.00</span></li>
+                    <li>Greek Salad <span class="menu-price">$9.75</span></li>
+                    <li>Antipasto Salad <span class="menu-price">$10.00</span></li>
+                    <li>Caprese Salad with fresh mozzarella, sliced tomatoes; olive oil <span class="menu-price">$9.75</span></li>
+                    <li>Chef's Salad <span class="menu-price">$9.50</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section ">
+            <div class="menu-category ">
+                <h2>Jumbo Wings</h2>
+                <p>Served withblue cheese, celery, and carrots. Choice of </p>
+                <p>hot, mild, BBQ, honey buffalo, honey BBQ, or plain.</p>
+                <ul>
+                    <li>Jumbo Wings (10) <span class="menu-price">$11.00</span></li>
+                    <li>Jumbo Wings (7) w/ Fries <span class="menu-price">$13.00</span></li>
+                    <li>Boneless Buffalo Bites (12) <span class="menu-price">$8.75</span></li>
+                    <li>Boneless Buffalo Bites (9) w/ Fries <span class="menu-price">$9.50</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section ">
+            <div class="menu-category ">
+                <h2>Pizza by the Slice</h2>
+                <ul>
+                    <li>Plain Slice <span class="menu-price">$3.50</span></li>
+                    <li>Sicilian Slice <span class="menu-price">$3.75</span></li>
+                    <li>Focaccia Slice <span class="menu-price">$4.00</span></li>
+                    <li>Grandma Focaccia Slice <span class="menu-price">$4.50</span></li>
+                    <li>Focaccia w/ Roasted Peppers and Fresh Mozzarella Slice <span class="menu-price">$5.50</span></li>
+                    <li>Focaccia Bruschetta Slice <span class="menu-price">$5.50</span></li>
+                    <li>Chicken Bacon Ranch Slice <span class="menu-price">$5.50</span></li>
+                    <li>Chicken Parmigiana Slice <span class="menu-price">$5.50</span></li>
+                    <li>Vegetable Pizza Slice <span class="menu-price">$5.50</span></li>
+                    <li>Chicken Vegetable Slice w/ Sauteed chicken, broccoli, tomatoes, fresh garlic and mozzarella cheese <span class="menu-price">$5.50</span></li>
+                    <li>Chicken Vodka Slice <span class="menu-price">$5.50</span></li>
+                    <li>Chicken Francese Slice Chicken strips butter sauted with white wine, lemon juice, and mozzarella <span class="menu-price">$5.50</span></li>
+                    <li>Chicken Marsala Slice Chicken, fresh mushrooms, sauted marsala wine, mozzarella <span class="menu-price">$5.50</span></li>
+                    <li>Cajun Chicken Slice <span class="menu-price">$5.50</span></li>
+                    <li>Chicken Scarpariello Slice <span class="menu-price">$5.50</span></li>
+                    <li>BBQ Chicken Slice Chicken cutlet, BBQ sauce, mozzarella <span class="menu-price">$5.50</span></li>
+                    <li>Buffalo Chicken Slice Chicken, hot sauce, bleu cheese, mozzarella cheese <span class="menu-price">$5.50</span></li>
+                    <li>Chicken Bruschetta Slice <span class="menu-price">$5.50</span></li>
+                    <li>Fresh Crumbled Sausage Slice <span class="menu-price">$5.50</span></li>
+                    <li>Bacon, Cheese, Tomato Slice <span class="menu-price">$5.50</span></li>
+                    <li>Tomato and Basil Slice <span class="menu-price">$5.50</span></li>
+                    <li>Eggplant Parmigiana Slice <span class="menu-price">$5.50</span></li>
+                    <li>Lasagna Slice Ground beef, ricotta cheese, and mozzarella <span class="menu-price">$5.50</span></li>
+                    <li>White Slice Ricotta, olive oil, Parmesan cheese, and mozzarella cheese <span class="menu-price">$5.50</span></li>
+                    <li>White w/ Broccoli Slice <span class="menu-price">$5.50</span></li>
+                    <li>Spinach Slice <span class="menu-price">$5.50</span></li>
+                    <li>Margherita Slice <span class="menu-price">$5.50</span></li>
+                    <li>Hearty Whole Wheat Focaccia Slice w/ Fresh mozzarella, roasted peppers, mushrooms, and zucchini <span class="menu-price">$5.50</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section ">
+            <div class="menu-category ">
+                <h2>Specialty Pizzas</h2>
+                <p>Small 14" (6 slices), Medium 16 " (6 slices) or Large 18" (8 slices). Add from our selection of toppings for add 'l charge.</p>
+                <ul>
+                    <li>Buffalo Chicken Pizza <span class="menu-price">Small $17.50, Large $22.00 </span>
+                    </li>
+                    <li>BBQ Chicken Pizza <span class="menu-price">Small $17.50, Large $22.00 </span>
+                    </li>
+                    <li>Chicken Caesar Pizza <span class="menu-price">Small $17.50, Large $22.00 </span>
+                    </li>
+                    <li>Chicken Scarpariello Pizza <span class="menu-price">Small $17.50, Large $22.00 </span>
+                    </li>
+                    <li>Cajun Chicken Pizza <span class="menu-price">Small $17.50, Large $22.00 </span>
+                    </li>
+                    <li>Chicken Marsala Pizza <span class="menu-price">Small $17.50, Large $22.00 </span>
+                    </li>
+                    <li>Chicken Francese Pizza <span class="menu-price">Small $17.50, Large $22.00 </span>
+                    </li>
+                    <li>Chicken Vodka Pizza <span class="menu-price">Small $17.50, Large $22.00 </span>
+                    </li>
+                    <li>White Pizza <span class="menu-price">Small $17.50, Large $22.00 </span></li>
+                    <li>White Broccoli Pizza <span class="menu-price">Small $17.50, Large $21.00 </span>
+                    </li>
+                    <li>White Spinach Pizza <span class="menu-price">Small $17.50, Large $21.00 </span>
+                    </li>
+                    <li>Vegetable Pizza <span class="menu-price">Small $17.50, Large $21.00 </span>
+                    </li>
+                    <li>Margherita Pizza <span class="menu-price">Small $17.50, Large $21.00 </span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Calzones & Rolls</h2>
+                <ul>
+                    <li>Calzone w/ Ricotta and mozzarella. Add from our selection of toppings for add'l charge <span class="menu-price">$9.00</span></li>
+                    <li>Meat Stromboli w/ Salami, pepperoni, ham, and mozzarella. Add from our selection of toppings for add'l charge <span class="menu-price">$9.00</span></li>
+                    <li>Chicken Parm Roll w/ mozzarella and marinara sauce. Add from our selection of toppings for add'l charge <span class="menu-price">$9.00</span></li>
+                    <li>Grilled Chicken and Brocoli Rabe Roll <span class="menu-price">$9.00</span></li>
+                    <li>Sausage and Peppers Roll <span class="menu-price">$9.00</span></li>
+                    <li>Buffalo Chicken Roll <span class="menu-price">$9.00</span></li>
+
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Wraps</h2>
+                <p>Served with your choice of french fries or salad</p>
+                <ul>
+                    <li>Grilled Chicken Wrap Grilled chicken, lettuce, tomatoes <span class="menu-price">$9.00</span></li>
+                    <li>Buffalo Chicken Wrap Fried chicken, hot sauce, lettuce, tomatoes <span class="menu-price">$9.00</span></li>
+                    <li>BBQ Chicken Wrap Fried chicken, BBQ sauce, lettuce, tomatoes; mozzarella <span class="menu-price">$9.00</span></li>
+                    <li>Grilled Chicken Caesar Wrap: Romaine lettuce and Caesar dressing - <span class="menu-price">$10.50</span></li>
+                    <li>Italian Combo Wrap: Prosciutto, roasted peppers, fresh mozzarella, lettuce, tomatoes - <span class="menu-price">$10.00</span></li>
+                    <li>Chicken Cutlet Wrap: Lettuce, tomatoes, mayo - <span class="menu-price">$10.00</span></li>
+                    <li>Chicken Bacon Ranch Wrap - <span class="menu-price">$10.00</span></li>
+                    <li>Philly Chicken Wrap: Peppers, onions, and mushrooms - <span class="menu-price">$10.00</span></li>
+                    <li>Buffalo Chicken Wrap - <span class="menu-price">$10.00</span></li>
+                    <li>BBQ Chicken Wrap - <span class="menu-price">$10.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Gyros</h2>
+                <p>Served on pita bread with lettuce, tomato, onion; tzatziki. Served deluxe w/ fries for add'l charge.</p>
+                <ul>
+                    <li>Beef Gyro - <span class="menu-price">$10.00</span></li>
+                    <li>Grilled Chicken Gyro - <span class="menu-price">$10.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Burgers</h2>
+                <p>8 oz. burgers served with lettuce, tomato; onion. Served deluxe w/ fries for add'l charge.</p>
+                <ul>
+                    <li>Hamburger - <span class="menu-price">$7.00</span></li>
+                    <li>Cheeseburger - <span class="menu-price">$7.50</span></li>
+                    <li>Bacon Cheeseburger - <span class="menu-price">$8.00</span></li>
+                    <li>Grilled Chicken Burger - <span class="menu-price">$7.50</span></li>
+                    <li>Grilled Chicken Cheeseburger - <span class="menu-price">$8.00</span></li>
+                    <li>Chicken Bacon Ranch Burger - <span class="menu-price">$8.50</span></li>
+                    <li>Chicken Bacon Ranch Burger w/ Cheese - <span class="menu-price">$9.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Pasta Entrees</h2>
+                <p>Some pasta substitutes available for add'l charge. Add chicken or shrimp for add'l charge.</p>
+                <ul>
+                    <li>Cauliflower Penne w/ Tomato Sauce Entree - <span class="menu-price">$14.50</span></li>
+                    <li>Gluten Free Penne w/ Tomato Sauce Entree - <span class="menu-price">$14.50</span></li>
+                    <li>Gluten Free Penne w/ Garlic; Oil Entree - <span class="menu-price">$15.50</span></li>
+                    <li>Pasta House Special Entree: with mushrooms, roasted peppers, peas; shrimp - <span class="menu-price">$18.50</span></li>
+                    <li>Penne Vodka Entree: Sauteed shallots. prosciutto, cream, tomatoes, cheese - <span class="menu-price">$16.00</span></li>
+                    <li>Pasta w/ Tomato Sauce Entree - <span class="menu-price">$10.50</span></li>
+                    <li>Pasta w/ Marinara Entree - <span class="menu-price">$13.50</span></li>
+                    <li>Pasta w/ Garlic; Olive Oil Entree - <span class="menu-price">$13.50</span></li>
+                    <li>Pasta w/ Bolognese Sauce: Meat sauce - <span class="menu-price">$15.00</span></li>
+                    <li>Pasta w/ Meatballs or Sausage Entree - <span class="menu-price">$15.00</span> </li>
+                    <li>Penne w/ Broccoli; Chicken Entree: Garlic; oil - <span class="menu-price">$16.00</span></li>
+                    <li>Penne Filleto di Pomodoro Entree: Onions, prosciutto, tomatoes, basil; cheese - <span class="menu-price">$15.00</span></li>
+                    <li>Penne Arrabiata Entree: Garlic, bacon, hot peppers, tomatoes; Parmesan - <span class="menu-price">$14.00</span></li>
+                    <li>Linguini Primavera Entree: Vegetables; Choice of cream, garlic; oil or marinara - <span class="menu-price">$16.20</span></li>
+                    <li>Linguine w/ Red or White Clam Sauce Entree - <span class="menu-price">$16.00</span></li>
+                    <li>Rigatoni Bolognese Entree - <span class="menu-price">$16.00</span></li>
+                    <li>Fettuccini Alfredo Entree: Cream sauce - <span class="menu-price">$16.00</span></li>
+                    <li>Tortellini Alfredo Entree - <span class="menu-price">$16.00</span></li>
+                    <li>Fettuccini Carbonara Entree: Blanched onions, prosciutto, cream; Parmigiana - <span class="menu-price">$15.50</span></li>
+                    <li>Rigatoni w/ Sausage; Peppers Entree - <span class="menu-price">$16.00</span></li>
+                    <li>Rigatoni w/ Broccoli Rabe; Sausage Entree - <span class="menu-price">$17.50</span></li>
+                    <li>Eggplant Parmigiana Entree - <span class="menu-price">$15.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Baked Entrees</h2>
+                <p>Add meat sauce or chopped chicken for add'l charge</p>
+                <ul>
+                    <li>Baked Ziti Entree - <span class="menu-price">$13.00</span></li>
+                    <li>Manicotti Entree - <span class="menu-price">$13.00</span></li>
+                    <li>Stuffed Shells Entree - <span class="menu-price">$13.00</span></li>
+                    <li>Ravioli Entree - <span class="menu-price">$13.00</span></li>
+                    <li>Lasagna Entree - <span class="menu-price">$13.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Chicken Entrees</h2>
+                <p>Served with penne or spaghetti or salad; plain bread</p>
+                <ul>
+                    <li>Chicken Parmigiana Entree: Tomato sauce; mozzarella - <span class="menu-price">$16.50</span></li>
+                    <li>Chicken Francese Entree: Lemon juice, touch of butter; white wine - <span class="menu-price">$17.50</span></li>
+                    <li>Chicken; Shrimp Francese Entree: Lemon juice, touch of butter; white wine - <span class="menu-price">$19.50</span></li>
+                    <li>Chicken Marsala Entree: Sauteed shallots, mushrooms; Marsala wine - <span class="menu-price">$16.50</span></li>
+                    <li>Chicken Sorrentino Entree: Prosciutto, egg, mozzarella with sherry wine sauce - <span class="menu-price">$17.50</span></li>
+                    <li>Chicken Cacciatore Entree: Sauteed onions, peppers, mushrooms, marinara; touch of wine - <span class="menu-price">$17.00</span></li>
+                    <li>Chicken Piccata Entree: Sauteed capers, touch of lemon juice; white wine - <span class="menu-price">$17.00</span></li>
+                    <li>Chicken Scarpariello Entree: Sauteed onions, pepperoncini, garlic; white wine - <span class="menu-price">$16.50</span></li>
+                    <li>Chicken House Special: Chicken with prosciutto, broccoli, mozzarella; sherry wine - <span class="menu-price">$19.50</span></li>
+                    <li>Chicken Scampi Entree: Sauteed garlic, shallots, roasted peppers, lime juice; white wine - <span class="menu-price">$17.00</span></li>
+                    <li>Chicken Pizzaiola Entree: Sauteed onions, peppers, black olives; marinara sauce - <span class="menu-price">$16.50</span></li>
+                    <li>Chicken Balsamico Entree: Sauteed chicken breast in balsamic sauce with pimentos - <span class="menu-price">$17.00</span></li>
+                    <li>Chicken Milanese Entree: Breaded chicken breast in olive oil - <span class="menu-price">$16.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+
+                <h2>Pork Chop Entrees</h2>
+                <ul>
+                    <li>Pork Chops w/ Sweet or Hot Peppers: Served with potatoes - <span class="menu-price">$18.75</span></li>
+                    <li>BBQ Pork Chops: with pineapple; French fries - <span class="menu-price">$17.75</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Veal Entrees</h2>
+                <p>Served with penne or spaghetti or salad; plain bread</p>
+                <ul>
+                    <li>Veal Parmigiana Entree: Veal lightly breaded, topped with mozzarella cheese; tomato sauce - <span class="menu-price">$20.00</span></li>
+                    <li>Veal Francese Entree: Veal lightly battered, sauteed with lemon, white wine; a touch of butter - <span class="menu-price">$20.00</span></li>
+                    <li>Veal Marsala Entree: Tender veal scallopine sauteed in classic marsala wine; mushrooms - <span class="menu-price">$20.00</span></li>
+                    <li>Veal Sorrentino Entree: Prosciutto, egg, mozzarella with sherry wine sauce - <span class="menu-price">$20.00</span></li>
+                    <li>Veal Cacciatore Entree - <span class="menu-price">$20.00</span></li>
+                    <li>Veal Piccata Entree: Sauteed capers, touch of lemon juice; white wine - <span class="menu-price">$20.00</span></li>
+                    <li>Veal Scarpariello Entree - <span class="menu-price">$20.00</span></li>
+                    <li>Veal House Special Entree: Veal with prosciutto, broccoli, mozzarella; sherry wine - <span class="menu-price">$21.00</span></li>
+                    <li>Veal; Peppers Entree: with fresh peppers in a light tomato sauce - <span class="menu-price">$19.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Seafood Entrees</h2>
+                <p>Served with penne or spaghetti or salad; plain bread</p>
+                <ul>
+                    <li>Shrimp Parmigiana Entree - <span class="menu-price">$19.00</span></li>
+                    <li>Shrimp Francese Entree - <span class="menu-price">$19.00</span></li>
+                    <li>Shrimp Scampi Entree - <span class="menu-price">$19.00</span></li>
+                    <li>Seafood Combo Entree: Shrimp, clams, calamari marinara - <span class="menu-price">$20.75</span></li>
+                    <li>Calamari Marinara Entree - <span class="menu-price">$19.50</span></li>
+                    <li>Shrimp Fra Diavolo Entree - <span class="menu-price">$19.50</span></li>
+                    <li>Calamari Fra Diavolo Entree - <span class="menu-price">$19.50</span></li>
+                    <li>Calamari Fra Diavolo Entree - <span class="menu-price">$19.50</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Side Orders</h2>
+                <ul>
+                    <li>Side of Meatballs (3) - <span class="menu-price">$7.25</span></li>
+                    <li>Side of Sausage (3) - <span class="menu-price">$7.50</span></li>
+                    <li>Side of Broccoli Rabe - <span class="menu-price">$9.75</span></li>
+                    <li>Side of Spinach w/ Garlic; Oil - <span class="menu-price">$7.50</span></li>
+                    <li>Side of Broccoli w/ Garlic; Oil - <span class="menu-price">$7.50</span></li>
+                    <li>Garlic Knots (7): Add cheese for add'l charge - <span class="menu-price">$2.50</span></li>
+                    <li>Garlic Sticks (7): Add cheese for add'l charge - <span class="menu-price">$2.50</span></li>
+                    <li>Onion Rings - <span class="menu-price">$5.50</span></li>
+                    <li>French Fries: Add cheese or bacon for add'l charge - <span class="menu-price">$5.50</span></li>
+                    <li>Jamaican Beef Patties: Add cheese for add'l charge - <span class="menu-price">$4.00</span></li>
+                    <li>Cajun Fries - <span class="menu-price">$6.50</span></li>
+                    <li>Garlic Bread - <span class="menu-price">$4.50</span></li>
+                    <li>Garlic Bread w/ Cheese - <span class="menu-price">$5.50</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Desserts</h2>
+                <ul>
+                    <li>Large Cannoli - <span class="menu-price">$3.50</span></li>
+                    <li>Tiramisu - <span class="menu-price">$4.50</span></li>
+                    <li>Chocolate Mud Pie - <span class="menu-price">$4.50</span></li>
+                    <li>;S Cheesescake - <span class="menu-price">$4.50</span></li>
+                    <li>Zeppolis (7) - <span class="menu-price">$2.50</span></li>
+                    <li>Fried Oreos (6) - <span class="menu-price">$5.00</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Beverages</h2>
+                <ul>
+                    <li>Canned Soda: Choose from our selection - <span class="menu-price">$1.50</span></li>
+                    <li>Bottled Soda (20 oz.): Choose from our selection - <span class="menu-price">$2.00</span></li>
+                    <li>2 Liter Soda: Choose from our selection - <span class="menu-price">$3.50</span></li>
+                    <li>Gatorade: Choose from our selection - <span class="menu-price">$2.50</span></li>
+                    <li>Snapple: Choose from our selection - <span class="menu-price">$2.00</span></li>
+                    <li>Bottled Water (16.9 oz.) - <span class="menu-price">$1.25</span></li>
+                    <li>Vitamin Water</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Katonah Pizza & Pasta is a family owned and operated pizzeria and Italian restaurant located in Katonah, NY.">
+    <title>Katonah Pizza & Pasta</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <div class="nav-bar">
+                <ul>
+                    <li> <a href="/index.html">Welcome</a> </li>
+                    <li> <a href="/menu.html">Menu</a> </li>
+                    <li><a href="/catering.html">Catering</a></li>
+                    <li><a href="/about-us.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    <li><a href="/order.html" class="cta-button">Order</a></li>
+                </ul>
+
+            </div>
+            <button class="menu-toggle" type="button" onclick="toggleMenu()">
+  <img src="images/menu.png" alt="Menu" class="menu-image">
+</button>
+        </div>
+        <div>
+            <ul class="dropdown-menu">
+                <li> <a href="/index.html">Welcome</a> </li>
+                <li> <a href="/menu.html">Menu</a> </li>
+                <li><a href="/catering.html">Catering</a></li>
+                <li><a href="/about-us.html">About Us</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+                <li><a href="/order.html" class="cta-button">Order</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="wrapper">
+        <header>
+            <img src="images/logo.png" alt="Katonah Pizza & Pasta">
+        </header>
+
+        <div id="content">
+            <h1>Order Online</h1>
+
+            <div class="menu-section">
+                <!-- Menu items list -->
+                <div class="menu-items">
+                    <h2>Menu Items</h2>
+                    <!-- Add menu items as desired -->
+                    <div class="menu-item">
+                        <h3>Pizza 1</h3>
+                        <p>Item description</p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Pizza 2</h3>
+                        <p>Item description</p>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <section class="menu-section">
+                    <div class="menu-category">
+                        <h2>Appetizers</h2>
+                        <ul>
+                            <li>
+                                Shrimp Cocktail
+                                <span class="menu-price">$12.00</span>
+                                <button class="add-to-cart" data-item="Shrimp Cocktail" data-price="12.00">Add to cart</button>
+                            </li>
+                            <li>
+                                Fried Shrimp
+                                <span class="menu-price">$12.00</span>
+                                <button class="add-to-cart" data-item="Fried Shrimp" data-price="12.00">Add to cart</button>
+                            </li>
+                            <li>
+                                Baked Clams
+                                <span class="menu-price">$11.75</span>
+                                <button class="add-to-cart" data-item="Baked Clams" data-price="11.75">Add to cart</button>
+                            </li>
+                            <li>
+                                Bruschetta
+                                <span class="menu-price">$8.75</span>
+                                <button class="add-to-cart" data-item="Bruschetta" data-price="8.75">Add to cart</button>
+                            </li>
+                            <li>
+                                Fish and Chips
+                                <span class="menu-price">$10.75</span>
+                                <button class="add-to-cart" data-item="Fish and Chips" data-price="10.75">Add to cart</button>
+                            </li>
+                            <li>
+                                Eggplant Rollatini
+                                <span class="menu-price">$10.75</span>
+                                <button class="add-to-cart" data-item="Eggplant Rollatini" data-price="10.75">Add to cart</button>
+                            </li>
+                            <li>
+                                Fried Calamari
+                                <span class="menu-price">$12.50</span>
+                                <button class="add-to-cart" data-item="Fried Calamari" data-price="12.50">Add to cart</button>
+                            </li>
+                            <li>
+                                Chicken Fingers Served with honey mustard and BBQ sauce.
+                                <span class="menu-price">$10.75</span>
+                                <button class="add-to-cart" data-item="Chicken Fingers" data-price="10.75">Add to cart</button>
+                            </li>
+                            <li>
+                                Chicken Fingers w/ Fries Served with honey mustard and BBQ sauce.
+                                <span class="menu-price">$12.00</span>
+                                <button class="add-to-cart" data-item="Chicken Fingers w/ Fries" data-price="12.00">Add to cart</button>
+                            </li>
+                            <li>
+                                Cajun Shrimp
+                                <span class="menu-price">$13.00</span>
+                                <button class="add-to-cart" data-item="Cajun Shrimp" data-price="13.00">Add to cart</button>
+                            </li>
+                            <li>
+                                Grilled Shrimp (8)
+                                <span class="menu-price">$13.00</span>
+                                <button class="add-to-cart" data-item="Grilled Shrimp (8)" data-price="13.00">Add to cart</button>
+                            </li>
+                            <li>
+                                Zucchini Sticks Served with tomato sauce.
+                                <span class="menu-price">$9.50</span>
+                                <button class="add-to-cart" data-item="Zucchini Sticks" data-price="9.50">Add to cart</button>
+                            </li>
+                            <li>
+                                Mozzarella Sticks
+                                <span class="menu-price">$9.00</span>
+                                <button class="add-to-cart" data-item="Mozzarella Sticks" data-price="9.00">Add to cart</button>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Shopping cart summary -->
+                <div class="cart-summary">
+                    <h2>Cart Summary</h2>
+                    <ul>
+                        <!-- Cart items will be added here -->
+                        <li>Pizza 1 - 1x - $10.00</li>
+                        <li>Pizza 2 - 2x - $18.00</li>
+                    </ul>
+                    <p><strong>Total:</strong> $28.00</p>
+                    <button>Proceed to Checkout</button>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            &copy; Katonah Pizza & Pasta. All Rights Reserved.
+        </footer>
+    </div>
+</body>
+
+</html>

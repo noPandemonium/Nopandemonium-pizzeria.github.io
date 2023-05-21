@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Katonah Pizza & Pasta is a family owned and operated pizzeria and Italian restaurant located in Katonah, NY.">
+    <title>Katonah Pizza & Pasta</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <div class="nav-bar">
+                <ul>
+                    <li> <a href="/index.html">Welcome</a> </li>
+                    <li> <a href="/menu.html">Menu</a> </li>
+                    <li><a href="/catering.html">Catering</a></li>
+                    <li><a href="/about-us.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    <li><a href="/order.html" class="cta-button">Order</a></li>
+                </ul>
+
+            </div>
+            <button class="menu-toggle" type="button" onclick="toggleMenu()">
+  <img src="images/menu.png" alt="Menu" class="menu-image">
+</button>
+        </div>
+        <div>
+            <ul class="dropdown-menu">
+                <li> <a href="/index.html">Welcome</a> </li>
+                <li> <a href="/menu.html">Menu</a> </li>
+                <li><a href="/catering.html">Catering</a></li>
+                <li><a href="/about-us.html">About Us</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+                <li><a href="/order.html" class="cta-button">Order</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="wrapper">
+        <header>
+            <img src="images/logo.png" alt="Katonah Pizza & Pasta">
+        </header>
+        <!-- Contact Form -->
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
